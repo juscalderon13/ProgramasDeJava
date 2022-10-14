@@ -14,6 +14,9 @@ public class Problema1 {
             case "B","D","G","P","R","Ñ","Q" -> JOptionPane.showMessageDialog(null,"La letra " + letra + " es de forma mixta");
             default -> JOptionPane.showMessageDialog(null, "Valor invalido");    
         }
+        if (letra == "C" ) {
+            System.out.println("Que putas le pasa a esto");
+        }
     
         //Problema No.2
         int numero = Integer.parseInt(JOptionPane.showInputDialog(null,"Problema #2\nIngrese un numero de la familia de los enteros:"));
